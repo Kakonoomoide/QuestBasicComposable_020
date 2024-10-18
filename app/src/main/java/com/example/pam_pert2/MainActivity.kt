@@ -68,6 +68,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Text(
             text = "Nama",
+            modifier = Modifier.padding(top = 16.dp)
         )
         Text(
             text = "Rizki Ramadan",
