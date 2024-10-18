@@ -80,7 +80,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             text = "Rizki Ramadan",
             style = TextStyle(
                 fontSize = 30.sp,
-                color = colorResource(id = R.color.gray_500),
+                color = colorResource(id = R.color.teal_200),
                 fontFamily = FontFamily.Monospace
             )
         )
