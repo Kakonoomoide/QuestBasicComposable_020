@@ -74,6 +74,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Text(
             text = "20220140020",
+            style = TextStyle(
+                fontSize = 50.sp
+            )
         )
         Image(
             painter = painterResource(id = R.drawable.profille_rizki),
