@@ -72,7 +72,8 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Text(
             text = "Rizki Ramadan",
             style = TextStyle(
-                fontSize = 30.sp
+                fontSize = 30.sp,
+                color = Color.Green
             )
         )
         Text(
