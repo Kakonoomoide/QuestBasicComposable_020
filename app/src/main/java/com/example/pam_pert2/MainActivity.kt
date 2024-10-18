@@ -84,7 +84,8 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Image(
             painter = painterResource(id = R.drawable.profille_rizki),
-            contentDescription = null
+            contentDescription = null,
+            modifier = Modifier.size(200.dp)
         )
     }
 }
