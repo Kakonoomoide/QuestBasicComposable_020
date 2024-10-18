@@ -71,6 +71,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Text(
             text = "Rizki Ramadan",
+            style = TextStyle(
+                fontSize = 30.sp
+            )
         )
         Text(
             text = "20220140020",
