@@ -87,7 +87,8 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Text(
             text = "20220140020",
             style = TextStyle(
-                fontSize = 50.sp
+                fontSize = 50.sp,
+                color = colorResource(id = R.color.teal_700)
             )
         )
         Image(
