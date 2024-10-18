@@ -47,8 +47,10 @@ class MainActivity : ComponentActivity() {
 // create text with import image form resource foleder
 @Composable
 fun BasicCompose(modifier: Modifier = Modifier) {
-    Column(verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally)  {
+    Column(
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = Modifier.fillMaxSize())  {
         Text(
             text = "Indonesia",
             modifier = modifier,
@@ -77,7 +79,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             text = "Rizki Ramadan",
             style = TextStyle(
                 fontSize = 30.sp,
-                color = Color.Green,
+                color = Color.DarkGray,
                 fontFamily = FontFamily.Monospace
             )
         )
