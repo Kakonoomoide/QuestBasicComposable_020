@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
@@ -79,7 +80,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             text = "Rizki Ramadan",
             style = TextStyle(
                 fontSize = 30.sp,
-                color = Color.DarkGray,
+                color = colorResource(id = R.color.gray_500),
                 fontFamily = FontFamily.Monospace
             )
         )
