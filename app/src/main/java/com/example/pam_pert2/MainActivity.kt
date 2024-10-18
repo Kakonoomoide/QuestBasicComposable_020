@@ -69,6 +69,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Text(
             text = "Nama",
         )
+        Text(
+            text = "Rizki Ramadan",
+        )
     }
 }
 
